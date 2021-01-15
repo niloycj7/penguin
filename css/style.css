@@ -1,0 +1,122 @@
+header{
+    background-color: #FFFBF0;
+    height: 95vh;
+}
+section{
+    margin-bottom: 100px;
+}
+nav{
+    margin-bottom: 50px;
+}
+.nav-item .nav-link{
+    margin-right: 40px;
+}
+.main-image img{
+    width:400px;
+    
+}
+h1{
+    text-transform: uppercase;
+}
+.main-title{
+    color: #FABE4C;
+}
+h1 >span{
+    color: #000000;
+}
+
+h2{
+    color: #FABE4C;
+}
+.main-content{
+ margin-top: 50px !important;
+}
+.btn-buy-now{
+    color: #ffffff;
+    background-color: #A4BC46;
+}
+.shopping-cart{
+    width: 25px;
+}
+
+.women-collection img{
+    width: 300px;
+}
+.price-section .btn-buy-now{
+    margin-left: 20px;
+}
+
+.card{
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 15px;
+    border: 10px solid #FFFFFF;
+}
+.icon img{
+    width: 50px;
+}
+.service-image img{
+    width: 350px;
+}
+
+.shopping-cart-image{
+    width: 550px;
+}
+
+.icon-image img{
+    width: 60px;
+}
+
+.service-icon{
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 10px solid #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+}
+footer{
+    background-color: #f1f1f1;
+}
+
+.footer-copyright{
+    border-top: 2px solid #f9f9f9;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        height: 100vh;
+    }
+    .main-content {
+        margin-top: -29px !important;
+    }
+    .main-image img {
+        width: 272px;
+    }
+    .navbar-light .navbar-brand {
+        width: 65%;
+    }
+    .service-icon{
+        width: 300px;
+    }
+    .shopping-cart-image{
+        width: 300px;
+    }
+    h1.categories-heading{
+        text-align: center;
+    }
+    .card{
+        margin: auto;
+    }
+    .service-icon {
+        width: 300px;
+        margin: auto;
+    }
+    .shopping-cart-image {
+        width: 300px;
+        margin-top: 20px;
+    }
+} 
